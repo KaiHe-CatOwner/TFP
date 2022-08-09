@@ -1,0 +1,3 @@
+nohup python train_demo.py --ID 20-movie_1 --gpu 1 --task in-label-space --mode mit-movie --K 20 --averaged_times 3 --batch_size 4 --test_bz 4 --support_num 1  --lr 5e-5  --adapt_step 15  --val_interval 50 --c2c_tau 5000 >/dev/null 2>&1 &  ;
+nohup python train_demo.py --ID 20-movie_2 --gpu 2 --task in-label-space --mode mit-movie --K 20 --averaged_times 3 --batch_size 3 --test_bz 4 --support_num 2  --lr 5e-5  --adapt_step 15  --val_interval 50 --c2c_tau 5000 >/dev/null 2>&1 &  ;
+nohup python train_demo.py --ID 20-movie_3 --gpu 3 --task in-label-space --mode mit-movie --K 20 --averaged_times 3 --batch_size 4 --test_bz 4 --support_num 3  --lr 5e-5  --adapt_step 15  --val_interval 50 --c2c_tau 5000 >/dev/null 2>&1 &  ;

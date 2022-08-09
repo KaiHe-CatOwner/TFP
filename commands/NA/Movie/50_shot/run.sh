@@ -1,0 +1,3 @@
+srun -p RTX8Kq -w node22  python train_demo.py --ID 50-movie_1 --gpu 0 --task in-label-space --mode mit-movie --K 50 --averaged_times 3 --batch_size 2 --test_bz 2 --support_num 1  --lr 5e-5  --adapt_step 15  --val_interval 50 --c2c_tau 5000  
+srun -p RTX8Kq -w node22  python train_demo.py --ID 50-movie_2 --gpu 1 --task in-label-space --mode mit-movie --K 50 --averaged_times 3 --batch_size 2 --test_bz 2 --support_num 2  --lr 5e-5  --adapt_step 15  --val_interval 50 --c2c_tau 5000  
+srun -p RTX8Kq -w node22  python train_demo.py --ID 50-movie_3 --gpu 2 --task in-label-space --mode mit-movie --K 50 --averaged_times 3 --batch_size 2 --test_bz 2 --support_num 3  --lr 5e-5  --adapt_step 15  --val_interval 50 --c2c_tau 5000  

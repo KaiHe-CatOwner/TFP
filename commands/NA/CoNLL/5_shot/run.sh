@@ -1,0 +1,3 @@
+nohup python train_demo.py --ID label-conll_1 --gpu 2 --task in-label-space --mode conll --K 5 --averaged_times 3 --batch_size 4 --test_bz 4 --support_num 1  --lr 5e-5  --adapt_step 10  --c2c_tau 10 >/dev/null 2>&1 &  ; 
+nohup python train_demo.py --ID label-conll_2 --gpu 2 --task in-label-space --mode conll --K 5 --averaged_times 3 --batch_size 4 --test_bz 4 --support_num 2  --lr 5e-5  --adapt_step 10  --c2c_tau 10 >/dev/null 2>&1 &  ;
+nohup python train_demo.py --ID label-conll_3 --gpu 2 --task in-label-space --mode conll --K 5 --averaged_times 3 --batch_size 4 --test_bz 4 --support_num 3  --lr 5e-5  --adapt_step 10  --c2c_tau 10 >/dev/null 2>&1 &  ; 
