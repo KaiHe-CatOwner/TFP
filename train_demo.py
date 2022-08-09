@@ -450,7 +450,5 @@ if __name__ == "__main__":
         
         fp.write('\n')
         
-    opt.train_iter = 999999999
-    for i in range(9999999):
-        _, _, _, _ = main("temp", opt)
+
             
